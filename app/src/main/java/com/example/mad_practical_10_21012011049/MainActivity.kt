@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 try {
                     val data = HttpRequest().makeServiceCall(
                         "https://api.json-generator.com/templates/qjeKFdjkXCdK/data",
-                        "dchj8v1b6qqdjzbqood1jgpachyfzlw58r540gru")
+                        "rbn0rerl1k0d3mcwgw7dva2xuwk780z1hxvyvrb1")
                     withContext(Dispatchers.Main) {
                         try {
                             if(data != null)
@@ -54,19 +54,5 @@ class MainActivity : AppCompatActivity() {
             ee.printStackTrace()
         }
     }
-
-    /*fun setArraytoListView(){
-      val personListView=findViewById<ListView>(R.id.listview_main)
-        val array = arrayListOf<Person>(
-            Person("1", "Meha Bhatt", "meha21@gmail.com", "9452321000", "S-21, Someshwar Flats, Ahemdabad", 230117.83,723446.96),
-                    Person("1", "Meha Bhatt", "meha21@gmail.com", "9452321000", "S-21, Someshwar Flats, Ahemdabad", 172.455, 90.99),
-        Person("3", "Meha Bhatt", "meha21@gmail.com", "9452321000", "S-21, Someshwar Flats, Ahemdabad", 172.455, 90.9),
-        Person("4", "Meha Bhatt", "meha21@gmail.com", "9452321000", "S-21, Someshwar Flats, Ahemdabad", 172.455, 90.1),
-        Person("5", "Meha Bhatt", "meha21@gmail.com", "9452321000", "S-21, Someshwar Flats, Ahemdabad", 172.455, 90.2),
-        Person("6", "Meha Bhatt", "meha21@gmail.com", "9452321000", "S-21, Someshwar Flats, Ahemdabad", 172.455, 90.3)
-        )
-        personListView.adapter=PersonAdapter(this, array)
-    }*/
-
 }
 
