@@ -2,7 +2,7 @@ package com.example.mad_practical_10_21012011049
 
 import org.json.JSONObject
 import java.io.Serializable
-import java.net.Inet4Address
+
 
 class Person (var id: String,
               var name: String,

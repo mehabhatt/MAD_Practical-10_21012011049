@@ -1,5 +1,4 @@
 package com.example.mad_practical_10_21012011049
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -9,7 +8,6 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.example.mad_practical_10_21012011049.databinding.ActivityMapsBinding
-import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
